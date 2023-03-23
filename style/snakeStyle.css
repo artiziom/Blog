@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 300px;
+    position: realtive;
+    margin: 0 auto;
+    background-image: linear-gradient(to top left, #02d9ff 0%, #0a86ec 100%);
+
+  }
+  
+  table {
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+  }
+  
+  #scoreBoard {
+    margin-top: 50px;
+    width: 300px;
+    background-color: #0a86ec ;
+    padding: 10px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem;
+  }
+  
+  #play {
+    
+  }
+  
+  #play:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.8);
+  }
+  
+  td {
+    border-radius: 40%;
+  }
+  
+  td.snakeCell {
+    background: #2d63c4;
+  }
+  
+  td.snakeHead {
+    background: #4789d9;
+  }
+  
+  td.fruitCell {
+    background-color: #d61717;
+  }
+  
+  .gameOver {
+    width: 200px;
+    margin-left: -100px;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    display: block;
+    color: #d61717;
+    text-align: center;
+    padding: 10px 0;
+  }

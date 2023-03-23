@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<pizza>
+<zamowienie>
+<osoba>Jan Kowalski</osoba>
+<ciasto>Grube</ciasto>
+<wielkosc>Mala</wielkosc>
+<skladnik1>Ser</skladnik1>
+<skladnik2>Pieczarki</skladnik2>
+<skladnik3>Wolowina</skladnik3>
+<sos>Czosnkowy</sos>
+<cena>25</cena>
+</zamowienie>
+<zamowienie>
+<osoba>Tomasz Nowak</osoba>
+<ciasto>Cienkie</ciasto>
+<wielkosc>Duza</wielkosc>
+<skladnik1>Kukurydza</skladnik1>
+<skladnik2>Ser</skladnik2>
+<skladnik3>Salami</skladnik3>
+<sos>Pomidorowy</sos>
+<cena>50</cena>
+</zamowienie>
+</pizza>

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+body{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-photo/tasty-pepperoni-pizza-black-concrete-background_79782-103.jpg?w=2000);
+    background-size: cover;
+    border: 2px solid;
+    resize: both;
+    overflow: scroll;
+}
+.container{
+    position: absolute;
+    width: 40rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    padding: 2rem 2rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+}
+
+td {
+    padding: 0.5px;
+    border: 2px solid #000000;
+    border-radius: 0.5rem;
+}
+.EvenRow {
+    background-color: rgb(255, 153, 0);
+}
+
